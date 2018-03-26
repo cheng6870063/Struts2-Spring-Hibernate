@@ -64,7 +64,7 @@ public class AuthAction extends BaseAction implements ModelDriven<Auth> {
 		super.writeJson(authService.tree(auth, true));
 	}
 
-	/**
+	/*
 	 * get treegrid of auth
 	 */
 	public void treegrid() {
